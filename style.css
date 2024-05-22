@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Scribble&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --black:#000;
+    --white:#fff
+    
+}
+
+*::selection{
+    background-color: #ef9d71;
+    color: #fff;
+}
+
+body[theme="black"]{
+    background-color:var(--black);
+}
+body[theme="black"] .section{
+    color:var(--white);
+}
+.ved{
+    background-color: rgb(233 187 255);
+}
+.video_div{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+.hell{
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
